@@ -1,0 +1,33 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  width: 100%;
+  background-color: rgb(197, 156, 104);
+
+  .site-logo {
+    cursor: pointer;
+  }
+  
+  .site-menu {
+    display: flex;
+
+    ul {
+      display: flex;
+      gap: 0.5em;
+      list-style: none;
+
+      :hover {
+        background-color: #af7373;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      li {
+        padding: 1em;
+        border-radius: 1em;
+      }
+    }
+  }
+}
