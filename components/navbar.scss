@@ -21,12 +21,17 @@
       :hover {
         background-color: #af7373;
         cursor: pointer;
-        transition: 0.3s;
+        transition: 0.3s ease-in;
       }
 
       li {
         padding: 1em;
         border-radius: 1em;
+
+        a {
+          color: white;
+          text-decoration: none;
+        }
       }
     }
   }

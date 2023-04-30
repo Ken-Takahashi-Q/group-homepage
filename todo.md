@@ -1,10 +1,10 @@
 # Homepage
 ## OUR TASK
-| Points | Task                                            | Clear |
-|:------:|-------------------------------------------------|:-----:|
-|  0.5   | Navbar site logo, onClick push back to homepage |   -   |
-|   2    | Make navbar hamburger menu for mobile site      |   -   |
-|        |                                                 |       |
+| Points | Task                                            |  Clear  |
+|:------:|-------------------------------------------------|:-------:|
+|  0.5   | Navbar site logo, onClick push back to homepage | &#9745; |
+|   2    | Make navbar hamburger menu for mobile site      | &#9744; |
+|        |                                                 |         |
 
 
 ### Point Criteria

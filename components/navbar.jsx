@@ -1,25 +1,24 @@
 import './navbar.scss'
 
 export default function Navbar() {
-  const handleGoHome = () => {
-
-  }
-
   return (
     <div className="navbar-container">
-      <div className="site-logo" onClick={handleGoHome}>
-        <h1>GROUP</h1>
+      <div className="site-logo">
+        <a href="/">
+          <h1>GROUP</h1>
+        </a>
       </div>
       <div className="site-menu">
         <ul>
           <li>
-            Home
+            <a href="/">Home</a>
+            
           </li>
           <li>
-            Products
+          <a href="/product">Products</a>
           </li>
           <li>
-            Contact
+          <a href="/contact">Contact</a>
           </li>
         </ul>
       </div>
